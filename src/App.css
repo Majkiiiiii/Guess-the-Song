@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+--text: #fff;
+--bg: #0075FF;
+--black: #000;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+    background: #2D3250;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.message{
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+input{
+    max-width: 350px;
+    min-width: 250px;
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    background: var(--bg);
+    border: none;
+    text-align: center;
+    color: var(--text);
+    font-size: 20px;
+}
+input::placeholder{
+    font-size: 20px;
+    color: var(--text);
+}
+
+input:focus{
+    border: none;
+    color: white;
+}
+
+button{
+    margin-top: 30px;
+    background: var(--bg);
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guess-box{
+display: flex;
+justify-content: center;
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+
+}
+li{
+    padding: 10px;
+     margin: 20px;
+}
+
+
+ @media only screen and (min-width: 640px) {
+    #bar {
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #bar {
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #bar {
+        padding: 25px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    #bar {
+        padding: 30px;
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+    #bar {
+        padding: 35px;
+    }
+}
+
+#idkwhatisthat,h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+}
+
+
+.playMusic,.InputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

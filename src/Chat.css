@@ -1,0 +1,13 @@
+.ChatBox {
+  width: auto;
+  margin: 40px;
+  padding: 50px;
+  border: 2px solid white;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: auto;
+  background: #525CEB;
+  color: #000;
+  }
